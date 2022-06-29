@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     linkmqtt() {
-      console.log('app.vue_11111111')
+     // console.log('app.vue_11111111')
       this.ws = new MQTT(this.connection)
       this.global.setWs(this.ws)
       this.ws.connect()
